@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    header {
+        border: 1px solid black;
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(160, 85, 23);
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    h1 {
+        color: rgba(90, 29, 12, 0.783);
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(90, 29, 12, 0.783);
+    }
+
+    li:hover {
+        background-color: rgb(125, 53, 17);
+        padding: 5px;
+    }
+
+    #titulo {
+        font-family: "Tiny5", sans-serif;
+    }
+}
+
+#selection {
+    width: 97vw;
+    height: auto;
+    border: 2px solid black;
+    margin: 0px, 20px, 0px, 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(125, 53, 17);
+}
+
+#mascothorror {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagem {
+    border: 3px solid rgb(130, 42, 10);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#textoSEMsection {
+    color: aliceblue;
+    padding: 5px;
+    margin: 6px auto;
+    font-size: 20px;
+
+}
+
+main {
+    padding: 5px;
+    margin: 6px auto;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(28, 10, 3);
+}
+
+#abaSecreta:hover {
+    background-color: rgb(125, 53, 17);
+    padding: 5px;
+}
+
+.image2 {
+    text-align: center;
+
+}
+img{
+    height: 200px;
+    weight: 200px;
+}
+
+
+#aviso {
+
+}
+
+.aviso {
+    text-align: center;
+    background-color: aliceblue;
+    border: 3px solid black;
+    padding: 50px;
+    ;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    
+}
+
+#footer {
+     position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;/
+}
+
+footer {
+    background-color: rgb(125, 53, 17);
+    color: aliceblue;
+    font-family: "Tiny5", sans-serif;
+    justify-content: center;
+    text-align: center;
+
+}
+.aviso2{
+    color: crimson;
+}
