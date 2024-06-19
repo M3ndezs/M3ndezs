@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 60px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https:/e0.pxfuel.com/wallpapers/15/740/desktop-wallpaper-top-view-of-deep-red-roses-in-full-bloom-roses.jpg");
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.logo h1{
+   color: darkred;
+    background-color:darksalmon; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid darkred;
+   border-radius: 50px 50px;
+   padding: 10px;
+   margin: auto;
+   width: 250px;
+   height: 40px;
+}
+
+.nav{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav h2{
+    color: aliceblue;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+}
+#apresentacao{
+    width: 100vw;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+#apresentacao img{
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+#apresentacao p{
+    width: 250px;
+    text-align: justify;
+    text-indent: 20px;
+    color:darkgreen;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Sobre{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.box h2{
+    color: green;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box p{
+    color: red;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+
+}
+
+.box a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
