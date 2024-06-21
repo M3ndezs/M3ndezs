@@ -98,8 +98,8 @@ body {
 
 #textoSEMsection {
     color: aliceblue;
-    padding: 5px;
-    margin: 6px auto;
+    padding: 10px;
+    margin: 6px;
     font-size: 20px;
     text-indent: 15px;
 
@@ -107,7 +107,7 @@ body {
 
 main {
     padding: 5px;
-    margin: 6px auto;
+    margin: 6px;
     font-size: 15px;
 }
 
@@ -165,4 +165,19 @@ footer {
 
 .aviso2 {
     color: crimson;
+}
+
+.box{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box p a{
+    border: 3px solid rgb(125, 53, 17);
+}
+#titulo3{
+    font-family: "Tiny5", sans-serif;
+    color: aliceblue;
+    padding:20px;
+    text-align: center;
 }
