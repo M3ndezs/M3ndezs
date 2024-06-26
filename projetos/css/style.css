@@ -59,7 +59,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     padding: 10px;
 }
 
@@ -72,7 +72,7 @@ main{
 #apresentacao p{
     width: 250px;
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 15px;
     color:darkgreen;
     font-family: cursive;
     font-size: 20px;
@@ -81,31 +81,32 @@ main{
 
 #Sobre{
     width: 100vw;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .box{
-    width: 200px;
-    padding: 15px;
+    width: 300px;
+    padding: 10px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
 
 .box h2{
-    color: green;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .box p{
-    color: red;
+    color: rgb(0, 0, 0);
     text-align: justify;
     text-indent: 15px;
+    padding: 15px;
 }
 
 .box img{
