@@ -121,3 +121,37 @@ main{
     color: blue;
     text-align: center;
 }
+
+#topicos{
+    width: 100vw;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.topicos{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+.topicos h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.topicos p{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-indent: 15px;
+    padding: 15px;
+}
